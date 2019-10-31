@@ -13,3 +13,11 @@ function Driver  (name, age, experience ) {
     experience ,
   }
 }
+
+function Driver  (name, age, experience ) {
+    return {
+    name, // don't forget ES6 power-tools, this is the same as `name: name`
+    age,
+    experience ,
+  }
+}
