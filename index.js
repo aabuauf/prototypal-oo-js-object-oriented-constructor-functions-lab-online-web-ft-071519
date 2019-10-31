@@ -1,7 +1,7 @@
-function User(name, age, hometown) {
+function Scooter (year, color, model) {
     return {
-    name, // don't forget ES6 power-tools, this is the same as `name: name`
-    age,
-    hometown,
+    year, // don't forget ES6 power-tools, this is the same as `name: name`
+    color,
+    model,
   }
 }
