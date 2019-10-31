@@ -14,9 +14,9 @@ function Driver  (name, age, experience ) {
   }
 }
 
-function PickupLocation   (name, age, experience ) {
+function PickupLocation   (address , age, experience ) {
     return {
-    name, // don't forget ES6 power-tools, this is the same as `name: name`
+    address , // don't forget ES6 power-tools, this is the same as `name: name`
     age,
     experience ,
   }
