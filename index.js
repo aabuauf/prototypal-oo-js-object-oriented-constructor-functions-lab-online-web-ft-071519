@@ -6,9 +6,9 @@ function Scooter (year, color, model) {
   }
 }
 
-function Driver  (year, color, model) {
+function Driver  (name, color, model) {
     return {
-    year, // don't forget ES6 power-tools, this is the same as `name: name`
+    name, // don't forget ES6 power-tools, this is the same as `name: name`
     color,
     model,
   }
