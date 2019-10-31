@@ -6,10 +6,10 @@ function Scooter (year, color, model) {
   }
 }
 
-function Driver  (name, age, model) {
+function Driver  (name, age, experience ) {
     return {
     name, // don't forget ES6 power-tools, this is the same as `name: name`
     age,
-    model,
+    experience ,
   }
 }
